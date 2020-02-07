@@ -46,6 +46,7 @@ zookeeper的相关配置
 elastic.job.zk.namespace=elastic-job
 elastic.job.zk.serverLists=192.168.1.111:2181,192.168.1.112:2181
 ```
+文档http://elasticjob.io/index_zh.html
 
 #### v1.0 20200216
 1.创建
