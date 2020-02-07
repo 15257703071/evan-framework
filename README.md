@@ -14,6 +14,7 @@
 + syslog          系统日志组件
 + utils           工具集
 + web             web工程依赖包
++ task            当当网的esJob分布式定时任务
 
 ### 操作说明
 
@@ -37,18 +38,14 @@ mvn-deploy-release.sh(.bat) $version
 
 ### 版本说明
 
-#### v2.1.1 20180129
-1. [fix] Redis日志问题和级别
-1. [fix] 图片验证码的cache不再保存到cookie
-1. [feature] 运行环境不再读取属性spring.profiles.active
-1. [feature] 优化排除读取当前登录用户的Url的缓存
+#### v1.1 20200217
 
+1.添加当当网esJob分布式定时任务
+```
+zookeeper的相关配置
+elastic.job.zk.namespace=elastic-job
+elastic.job.zk.serverLists=192.168.1.111:2181,192.168.1.112:2181
+```
 
-#### v2.1 20171204
-1. AESUtil加解密失败时原来抛出runtimeException改为AESException
-
-#### v1.1.4 20170105
-1. cache模块增加判断缓存是否存在的方法
-
-####  v1.1.3 20161227
-1. redis增加参数maxWaitMillis
+#### v1.0 20200216
+1.创建

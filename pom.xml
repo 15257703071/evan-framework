@@ -7,7 +7,7 @@
     <groupId>org.evanframework</groupId>
     <artifactId>evan-framework</artifactId>
     <packaging>pom</packaging>
-    <version>2.1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <modules>
         <module>domain</module>
@@ -15,13 +15,14 @@
         <module>cache</module>
         <module>datadict</module>
         <module>store</module>
-        <module>mq</module>
+<!--        <module>mq</module>-->
         <module>mail</module>
         <module>httpclient</module>
         <module>syslog</module>
         <module>persistence</module>
         <module>utils</module>
         <module>web</module>
+        <module>task</module>
     </modules>
 
     <properties>
@@ -126,7 +127,7 @@
             <id>nexus-releases</id>
             <name>nexus Repository</name>
             <!--<url>http://192.168.0.109:8081/nexus/content/groups/public/</url>-->
-            <url>http://120.27.218.59:8081/groups/public/</url>
+            <url>http://47.104.250.122:8081/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -140,13 +141,13 @@
             <id>nexus-releases</id>
             <name>Internal Releases</name>
             <!--<url>http://192.168.0.109:8081/nexus/content/repositories/releases</url>-->
-            <url>http://120.27.218.59:8081/repository/maven-releases</url>
+            <url>http://47.104.250.122:8081/repository/maven-releases</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>Internal Snapshots</name>
             <!--<url>http://192.168.0.109:8081/nexus/content/repositories/snapshots</url>-->
-            <url>http://120.27.218.59:8081/repository/maven-snapshots</url>
+            <url>http://47.104.250.122:8081/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
