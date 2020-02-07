@@ -8,7 +8,7 @@
 + datadict        数据字典读取组件
 + httpclient      http请求组件
 + mail            邮件发送组件
-+ mq              消息队列组件
++ mq(丢弃）        消息队列组件
 + store           存储组件
 + persistence     持久化组件
 + syslog          系统日志组件
