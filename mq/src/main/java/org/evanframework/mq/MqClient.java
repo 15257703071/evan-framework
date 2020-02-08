@@ -1,4 +1,4 @@
-package org.evanframework.mq;
+package org.evanframework.rabbitmq;
 
 /**
  * <p/>

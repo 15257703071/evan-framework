@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evanframework.mq;
+package org.evanframework.rabbitmq;
 
 import com.aliyun.openservices.ons.api.*;
 import org.junit.Test;

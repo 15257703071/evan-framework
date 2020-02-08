@@ -1,4 +1,4 @@
-package org.evanframework.mq;
+package org.evanframework.rabbitmq;
 
 import com.aliyun.openservices.ons.api.Consumer;
 import com.aliyun.openservices.ons.api.MessageListener;
